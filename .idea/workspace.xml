@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="109ef36f-de3a-4714-bfc7-96427324e6e1" name="Default Changelist" comment="" />
+    <list default="true" id="109ef36f-de3a-4714-bfc7-96427324e6e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_design.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +22,12 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="projectpossible" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -100,6 +116,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1VSVISLXo3M6jmDRepAxZlGseSW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -149,6 +166,10 @@
       <workItem from="1578811996124" duration="5068000" />
       <workItem from="1580664895845" duration="1330000" />
       <workItem from="1580713534529" duration="2617000" />
+      <workItem from="1580726178564" duration="353000" />
+      <workItem from="1581749000249" duration="5989000" />
+      <workItem from="1581925813502" duration="788000" />
+      <workItem from="1582394012469" duration="6364000" />
     </task>
     <servers />
   </component>
@@ -156,18 +177,20 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="288" y="54" key="#phpunit.xml" timestamp="1578812082799">
+    <state x="288" y="54" key="#phpunit.xml" timestamp="1581842743768">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="288" y="54" key="#phpunit.xml/0.0.1280.800@0.0.1280.800" timestamp="1578812082799" />
-    <state x="317" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1580713857277">
+    <state x="288" y="54" key="#phpunit.xml/0.0.1280.800@0.0.1280.800" timestamp="1581842743768" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1582394012727">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800/1280.-280.1920.1080@0.0.1280.800" timestamp="1580664951883" />
-    <state x="317" y="235" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1580713857277" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1577246875383">
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800/1280.-280.1920.1080@0.0.1280.800" timestamp="1582394012727" />
+    <state x="317" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1581925870368" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582394833130">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-257.1920.1057@0.0.1280.800" timestamp="1582394833130" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-280.1920.1080@0.0.1280.800" timestamp="1582394801081" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1577246875383" />
   </component>
 </project>
