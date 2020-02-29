@@ -2,14 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109ef36f-de3a-4714-bfc7-96427324e6e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_design.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/frontend_css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/compare.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/frontend_css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/404/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/blog-one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/blog-three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/blog-two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/man-four.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/man-one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/man-three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/man-two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/socials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/cart/one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/cart/three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/cart/two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/bg_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/gallery1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/gallery2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/gallery3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/gallery4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/girl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/girl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/girl3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/iframe1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/iframe2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/iframe3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/iframe4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/partner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/partner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/partner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/partner4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/pricing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/recommend1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/recommend2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/recommend3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/sale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/searchicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/shipping.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/rating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/similar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/similar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/similar3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/advertisement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +78,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="projectpossible" />
@@ -125,13 +195,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css/frontend_css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/css/frontend_css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -169,7 +244,7 @@
       <workItem from="1580726178564" duration="353000" />
       <workItem from="1581749000249" duration="5989000" />
       <workItem from="1581925813502" duration="788000" />
-      <workItem from="1582394012469" duration="6364000" />
+      <workItem from="1582394012469" duration="24030000" />
     </task>
     <servers />
   </component>
