@@ -91,10 +91,6 @@
                             </div>
                         </div>
                     </form>
-                    <div>
-                        <img src="https://www.dealayo.com/media/catalog/product/cache/1/small_image/300x375/9df78eab33525d08d6e5fb8d27136e95/s/p/specs-04_2.jpg">
-                    </div>
-
                 </div>
             </div>
         </div>

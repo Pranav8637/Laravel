@@ -16,6 +16,9 @@
 //});
 //
 Route ::get('/','IndexController@index');
+Route ::get('/compare','CompareController@compare');
+
+//Route::get('/browse/{name}', '')->name('browse.product');
 
 
 Auth::routes();

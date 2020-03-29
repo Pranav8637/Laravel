@@ -1,0 +1,16 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Product extends Model
+{
+    protected $fillable = [
+        'product_id',
+        'product_name',
+        'category_id',
+    ];
+
+    protected $primaryKey='product_id';
+}

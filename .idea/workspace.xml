@@ -2,70 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109ef36f-de3a-4714-bfc7-96427324e6e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/frontend_css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/compare.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/BalramKhatri.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projectpossible.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projectpossible.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/frontend_css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/404/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/blog-one.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/blog-three.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/blog-two.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/man-four.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/man-one.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/man-three.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/man-two.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/blog/socials.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/cart/one.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/cart/three.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/cart/two.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/bg_border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/gallery1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/gallery2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/gallery3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/gallery4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/girl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/girl2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/girl3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/iframe1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/iframe2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/iframe3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/iframe4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/partner1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/partner2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/partner3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/partner4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/pricing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/product6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/recommend1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/recommend2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/recommend3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/sale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/searchicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/home/shipping.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/new.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/rating.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/share.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/similar1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/similar2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/product-details/similar3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/advertisement.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frontend-images/shop/product9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/price-range.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/frontend_css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/now-ui-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/now-ui-dashboard.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/now-ui-dashboard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/404/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/blog/blog-one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/blog/blog-three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/blog/blog-two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/blog/man-four.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/blog/man-one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/blog/man-three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/blog/man-two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/blog/socials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/cart/one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/cart/three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/cart/two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/bg_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/gallery1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/gallery2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/gallery3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/gallery4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/girl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/girl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/girl3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/iframe1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/iframe2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/iframe3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/iframe4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/partner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/partner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/partner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/partner4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/pricing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/product1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/product2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/product3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/product4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/product5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/product6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/recommend1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/recommend2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/recommend3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/sale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/searchicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/home/shipping.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/product-details/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/product-details/new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/product-details/rating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/product-details/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/product-details/similar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/product-details/similar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/product-details/similar3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/shop/advertisement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/shop/product10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/shop/product11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/shop/product12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/shop/product7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/shop/product8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend_images/shop/product9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend_css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/price-range.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/404/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/blog/blog-one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/blog/blog-three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/blog/blog-two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/blog/man-four.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/blog/man-one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/blog/man-three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/blog/man-two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/blog/socials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/cart/one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/cart/three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/cart/two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/bg_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/gallery1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/gallery2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/gallery3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/gallery4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/girl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/girl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/girl3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/iframe1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/iframe2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/iframe3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/iframe4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/partner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/partner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/partner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/partner4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/pricing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/product1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/product2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/product3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/product4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/product5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/product6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/recommend1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/recommend2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/recommend3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/sale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/searchicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/home/shipping.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/product-details/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/product-details/new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/product-details/rating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/product-details/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/product-details/similar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/product-details/similar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/product-details/similar3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/shop/advertisement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/shop/product10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/shop/product11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/shop/product12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/shop/product7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/shop/product8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend_images/shop/product9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/compare.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/compare.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/front_layout/front_design.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +271,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css/frontend_css" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -244,7 +325,18 @@
       <workItem from="1580726178564" duration="353000" />
       <workItem from="1581749000249" duration="5989000" />
       <workItem from="1581925813502" duration="788000" />
-      <workItem from="1582394012469" duration="24030000" />
+      <workItem from="1582394012469" duration="24990000" />
+      <workItem from="1582994873148" duration="5572000" />
+      <workItem from="1583035747110" duration="629000" />
+      <workItem from="1583039368125" duration="3041000" />
+      <workItem from="1583244268626" duration="453000" />
+      <workItem from="1583335427690" duration="2067000" />
+      <workItem from="1583411667717" duration="1119000" />
+      <workItem from="1583513817671" duration="9787000" />
+      <workItem from="1583640351317" duration="5890000" />
+      <workItem from="1584158859765" duration="41582000" />
+      <workItem from="1584626707982" duration="38469000" />
+      <workItem from="1585458510356" duration="3644000" />
     </task>
     <servers />
   </component>
@@ -252,20 +344,31 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="240" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583514030482">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.-280.1920.1080@0.0.1280.800" timestamp="1583514030482" />
     <state x="288" y="54" key="#phpunit.xml" timestamp="1581842743768">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="288" y="54" key="#phpunit.xml/0.0.1280.800@0.0.1280.800" timestamp="1581842743768" />
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1582394012727">
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1585458515514">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800/1280.-280.1920.1080@0.0.1280.800" timestamp="1582394012727" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800/1280.-280.1920.1080@0.0.1280.800" timestamp="1585458515514" />
     <state x="317" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1581925870368" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582394833130">
+    <state x="317" y="236" key="com.intellij.ide.util.TipDialog/0.23.1280.733@0.23.1280.733" timestamp="1584158882566" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1583025661037">
       <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1583025661037" />
+    <state x="1738" y="-113" width="1005" height="913" key="search.everywhere.popup" timestamp="1585312878951">
+      <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-257.1920.1057@0.0.1280.800" timestamp="1582394833130" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-280.1920.1080@0.0.1280.800" timestamp="1582394801081" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1577246875383" />
+    <state x="1738" y="-113" width="1005" height="913" key="search.everywhere.popup/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1585312878951" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1584499591435" />
+    <state x="305" y="137" width="670" height="621" key="search.everywhere.popup/0.23.1280.734@0.23.1280.734" timestamp="1584433227197" />
   </component>
 </project>
