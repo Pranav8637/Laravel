@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\productdisplay;
 use App\Products;
+use App\Image_Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 class IndexController extends Controller
@@ -23,7 +24,7 @@ class IndexController extends Controller
             ->select('*')
             ->get();
 
-        print_r($display);
+//        print_r($display);
 
 
 //        $data = $request->all();
@@ -41,5 +42,6 @@ class IndexController extends Controller
 //        add scraped price to the product
 
         return view('index', $this->display,compact('display'));
+//        return $display;
     }
 }

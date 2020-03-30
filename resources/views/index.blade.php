@@ -74,7 +74,7 @@
 <!-- END DIV -->
 <!-- Begin table-->
 <div class="container">
-<table class="table table-striped" align="right">
+<table class="table table-responsive" align="right">
     <thead>
     <tr>
         <td>Image</td>
@@ -88,7 +88,8 @@
     @foreach($display as $displays)
         <tr>
             <td>
-                <img src="{{asset('assets/frontend_images/Cover/')}}/{{$displays->filename}}" style="width: 100%;">
+{{--                <img src="{{asset('assets/frontend_images/Cover/','$displays->filename')}}" style="width: 100%;">--}}
+                <img src="{{asset('assets/frontend_images/Cover/'.$displays->filename)}}" style="width: 50%;">
 {{--                <img src ="{{URL::asset('/images/Products')}}/{{$displays->filename}}">--}}
             </td>
             <td>{{$displays->product_name}}</td>
