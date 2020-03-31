@@ -44,4 +44,6 @@ class IndexController extends Controller
         return view('index', $this->display,compact('display'));
 //        return $display;
     }
+
+
 }

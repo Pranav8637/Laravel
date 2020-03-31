@@ -2662,3 +2662,125 @@ p {
     font-size: 14px;
 }
 
+
+/*MY ADDS*/
+.ads-details-wrapper .product-img {
+    position: relative;
+}
+
+.ads-details-wrapper .price {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    background: #03a9f4;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.ads-details-wrapper .owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ads-details-wrapper .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+.ads-details-wrapper .owl-dots span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 2px 4px;
+    filter: alpha(opacity=50);
+    opacity: 1;
+    border-radius: 30px;
+    background: #ddd;
+    border: 2px solid #fff;
+    box-shadow: 0 0 3px rgba(66, 68, 67, 0.55);
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.ads-details-wrapper .owl-dots span:hover {
+    background: #03a9f4;
+}
+
+.ads-details-wrapper .owl-dots .active span {
+    background: #03a9f4 !important;
+}
+
+/*owl-theme*/
+
+#categories .owl-theme .owl-nav {
+    position: relative;
+    top: -85px;
+    left: 0;
+}
+
+#categories .owl-theme .owl-nav div.owl-prev {
+    float: left;
+    margin-left: -50px;
+}
+
+#categories .owl-theme .owl-nav div.owl-next {
+    float: right !important;
+    margin-right: -50px;
+}
+
+#categories .owl-theme .owl-nav div {
+    width: 40px;
+    height: 40px;
+    display: block !important;
+    background: #03a9f4 !important;
+    text-align: center;
+    display: inline-block;
+    opacity: 1 !important;
+    border-radius: 30px !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+#categories .owl-theme .owl-nav div:hover {
+    background: #f06292 !important;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+#categories .owl-theme .owl-nav div i {
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+/*Homes tag*/
+
+.featured-box figure .homes-tag.rent {
+    position: absolute;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #fff;
+    z-index: 3;
+}
+
+.featured-box figure .homes-tag.rent i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.featured-box figure .homes-tag {
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 4px 16px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 0;
+}

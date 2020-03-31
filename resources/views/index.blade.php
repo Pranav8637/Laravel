@@ -1,6 +1,4 @@
 @extends('layouts.app')
-
-@section('content')
 {{--<!DOCTYPE html>--}}
 {{--<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->--}}
 {{--<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->--}}
@@ -33,7 +31,7 @@
 
 <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
 <!-- BEGIN HEADER -->
-
+@section('content')
 <!-- DIV FOR TITLE-->
 <div class="title">
     <h1 style="font-size: x-large" align="center">SHOP NEPAL | COMPARE PRICE OF SIMILAR PRODUCTS</h1>
@@ -43,14 +41,13 @@
 <div class="container">
     <div align="center" style="font-size: large">
         <p class="lead">Roll over the button to choose a category</p>
-        Category:
         <!-- Our Special dropdown has class show-on-hover -->
-        <div class="btn-group show-on-hover">
+        <div align="center" class="container">
             <button style="font-size: medium" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                 Category <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Mobile</a></li>
+                <li><a href="http://127.0.0.1:8000/login">Mobile</a></li>
                 <li><a href="#">Desktops</a></li>
                 <li><a href="#">Laptop</a></li>
                 <li class="divider"></li>
@@ -74,7 +71,7 @@
 <!-- END DIV -->
 <!-- Begin table-->
 <div class="container">
-<table class="table table-responsive" align="right">
+<table class="table table-striped" align="right">
     <thead>
     <tr>
         <td>Image</td>
@@ -185,5 +182,6 @@
 {{--    </tr>--}}
 {{--    </tbody>--}}
 {{--</table>--}}
+@endsection
 </body>
 </html>

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class BrowseProductController extends Controller
 {
-    public function display(){
+    public function product(){
+        return view('productdetail');
     }
 }
