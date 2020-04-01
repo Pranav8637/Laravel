@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109ef36f-de3a-4714-bfc7-96427324e6e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/frontend_css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/frontend_css/stylesfrominternet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/productdetail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BrowseProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BrowseProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend_css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend_css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/stylesfrominternet.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend_css/stylesfrominternet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/productdetail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/productdetail.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +197,7 @@
       <workItem from="1583640351317" duration="5890000" />
       <workItem from="1584158859765" duration="41582000" />
       <workItem from="1584626707982" duration="38469000" />
-      <workItem from="1585458510356" duration="15504000" />
+      <workItem from="1585458510356" duration="18602000" />
     </task>
     <servers />
   </component>
