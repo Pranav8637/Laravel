@@ -2784,3 +2784,85 @@ p {
     margin-bottom: 20px;
     bottom: 0;
 }
+
+/*widget for price drop alert*/
+
+
+.details-sidebar .widget {
+    box-shadow: 0 0 10px rgba(175, 175, 175, 0.23);
+    margin-bottom: 60px;
+}
+
+.details-sidebar .widget .widget-title {
+    padding: 17px 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+/*agent for price drop*/
+
+.details-sidebar .agent-inner {
+    background-color: #fff;
+    color: #999;
+    border-radius: 30px;
+    padding: 32px;
+    transition: 0.25s;
+}
+
+.details-sidebar .agent-inner .agent-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.details-sidebar .agent-inner .agent-title .agent-photo {
+    float: left;
+    display: block;
+    background-color: gray;
+}
+
+.details-sidebar .agent-inner .agent-title .agent-photo img {
+    border-radius: 20%;
+    border: 0.2px solid #03a9f4;
+    height: 40px;
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details {
+    margin-left: 92px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details h3 {
+    font-size: 16px;
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details h3 a {
+    color: #333;
+    margin: 0 0 6px;
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details span {
+    color: #888;
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details span i {
+    margin-right: 5px;
+}
+
+.details-sidebar .agent-inner .form-control {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 700;
+    font-family: montserrat, sans-serif;
+}

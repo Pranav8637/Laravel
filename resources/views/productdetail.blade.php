@@ -80,6 +80,26 @@
                     </div>
                 </div>
             </div>
+            <div class="prdct-dtl__rght" style="border-top: 1px solid #dfe1e8;">
+                <div class="widget">
+                    <h4 class="widget-title">Price Drop Alert</h4>
+                    <div class="agent-inner">
+                        <div class="mb-4">
+                            <div class="agent-title" style="margin: 20px">
+                                <div class="d-flex justify-content-center">
+                                    <span class="d-flex justify-content-around">
+                                        <img class="img-thumbnail" src="https://cdn1.storehippo.com/s/58b6b898fe14ad9f7ef50fb8/ms.settings/5256837ccc4abf1d39000001/webp/5c936891f0a9eb03b7037da3-480x480.png" alt="Socheko">
+                                    </span>
+                                </div>
+                            </div>
+                            <input  class="form-control ng-untouched ng-pristine ng-valid" placeholder="Your Email" type="email" style="margin-bottom: 20px">
+                            <input class="form-control" disabled="" placeholder="Actual Price" type="text" style="margin-bottom: 20px">
+                            <p style="margin-bottom: 20px">We will email you when we detect a lower price on <b _ngcontent-serverapp-c38="">Samsung Galaxy A10s (A107)</b></p>
+                            <button class="btn btn-common btn-block mt-4" type="submit"><i class="lni-send"></i>Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
