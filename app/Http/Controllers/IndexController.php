@@ -2,15 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\productdisplay;
-use App\Products;
-use App\Image_Product;
+use App\Image;
+use App\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 class IndexController extends Controller
 {
     public $display = [];
-    protected $show = [];
+    public $product = [];
+    public $image = [];
+
 
 //    protected $source=[];
     public function index()
@@ -23,6 +24,9 @@ class IndexController extends Controller
 //            ->join('image__products','image__products.image_id','=','images.image_id')
             ->select('*')
             ->get();
+
+        $product = Product::orderBy('product_id')->get();
+        $image = Image::orderBy('image_id')->get();
 
 //        print_r($display);
 
@@ -41,7 +45,7 @@ class IndexController extends Controller
 //
 //        add scraped price to the product
 
-        return view('index', $this->display,compact('display'));
+        return view('index', $this->display,compact('display', 'product','image'));
 //        return $display;
     }
 

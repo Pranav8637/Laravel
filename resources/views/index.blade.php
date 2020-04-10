@@ -86,7 +86,7 @@
         <tr>
             <td>
 {{--                <img src="{{asset('assets/frontend_images/Cover/','$displays->filename')}}" style="width: 100%;">--}}
-                <img src="{{asset('assets/frontend_images/Cover/'.$displays->filename)}}" style="width: 50%;">
+                <a href="productdetail/{{$displays->product_id}}"><img src="{{asset('assets/frontend_images/Cover/'.$displays->filename)}}" style="width: 50%;">  </a>
 {{--                <img src ="{{URL::asset('/images/Products')}}/{{$displays->filename}}">--}}
             </td>
             <td>{{$displays->product_name}}</td>

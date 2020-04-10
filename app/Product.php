@@ -12,5 +12,5 @@ class Product extends Model
         'category_id',
     ];
 
-    protected $primaryKey='product_id';
+//     $primaryKey='product_id';
 }

@@ -16,7 +16,7 @@
 //});
 //
 Route ::get('/','IndexController@index');
-Route ::get('/productdetail','BrowseProductController@product');
+Route ::get('/productdetail/{product_id}','BrowseProductController@product');
 Route ::get('/compare','CompareController@compare');
 //Route::get('/browse/{name}', '')->name('browse.product');
 

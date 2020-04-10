@@ -10,5 +10,5 @@ class Image extends Model
         'image_id',
         'filename',
     ];
-    protected $primaryKey='image_id';
+//    protected $primaryKey='image_id';
 }
