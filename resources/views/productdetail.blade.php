@@ -23,7 +23,10 @@
             </div>
             <div class="prdct-dtl__rght">
                 <div class="prdct-dtl__cntr">
-                    <div class="prdct-dtl__prc"> <span class="prdct-dtl__prc-lbl">Best Price:</span> <span>Rs.</span> <span class="prdct-dtl__prc-val">28,499</span> </div>
+{{--                    @foreach($price as $prices)--}}
+{{--                        <h1>{{$prices}}</h1>--}}
+                        <div class="prdct-dtl__prc"> <span class="prdct-dtl__prc-lbl">Best Price:</span> <span>Rs.</span> <span class="prdct-dtl__prc-val">{{$price}}</span> </div>
+{{--                    @endforeach--}}
                     <div class="prdct-dtl__vrnt-wrpr">
                         <div class="prdct-dtl__vrnt-item prdct-dtl__vrnt-size">
 {{--                            <div class="prdct-dtl__vrnt-hdr clearfix">--}}
@@ -43,7 +46,7 @@
                                     <div class="prc-tbl__logo"><h5>{{$details->scraped_product_name}}</h5>
                                     </div>
                                 <div class="prc-tbl__info">
-                                    <div class="prc-tbl__prc">Rs.{{$details->product_price}}</div>
+                                    <div class="prc-tbl__prc"><span>Rs.</span>{{$details->product_price}}</div>
                                 </div>
                                 <div class="prc-tbl__info">
                                     <a rel="nofollow" target="_blank" href="{{$details->site_url}}">{{$details->site_name}}</a>
@@ -92,7 +95,7 @@
                             </div>
                             <input  class="form-control ng-untouched ng-pristine ng-valid" placeholder="Your Email" type="email" style="margin-bottom: 20px">
                             <input class="form-control" disabled="" placeholder="Actual Price" type="text" style="margin-bottom: 20px">
-                            <p style="margin-bottom: 20px">We will email you when we detect a lower price on <b _ngcontent-serverapp-c38="">Samsung Galaxy A10s (A107)</b></p>
+                            <p style="margin-bottom: 20px">We will email you when we detect a lower price on <b _ngcontent-serverapp-c38="">{{$details->product_name}}</b></p>
                             <button class="btn btn-common btn-block mt-4" type="submit"><i class="lni-send"></i>Send</button>
                         </div>
                     </div>
