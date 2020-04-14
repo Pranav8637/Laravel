@@ -12,7 +12,6 @@ class IndexController extends Controller
     public $product = [];
     public $image = [];
 
-
 //    protected $source=[];
     public function index()
     {
@@ -35,8 +34,6 @@ class IndexController extends Controller
 //        $data = $request->except('scrape_id','source_id', 'product_id','current_price', 'image');
 
 
-
-
 //        create new variable
 //        loop products
 //        check if product exists
@@ -47,6 +44,17 @@ class IndexController extends Controller
 
         return view('index', $this->display,compact('display', 'product','image'));
 //        return $display;
+    }
+
+    public function search(Request $request)
+    {
+        $search = $request->get('search');
+        $display = DB::table('products')->where('product_name','like','%'.$search.'%')
+        ->join('image__products', 'image__products.product_id', '=', 'products.product_id')
+        ->join('images','images.image_id','=','image__products.image_id')
+        ->select('*')
+        ->get();
+        return view('index', $this->display,compact('display'));
     }
 
 

@@ -21,12 +21,17 @@
 
     <link rel="shortcut icon" href="favicon.ico" />
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+{{--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">--}}
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <link href="{{asset('css/frontend_css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/frontend_css/frontend_design.css')}}" rel="stylesheet">
+
+{{--    For Search Bar--}}
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <!--For Category-->
 
@@ -43,6 +48,19 @@
     </div>
     <!-- DIV FOR CATEGORY-->
     <div class="container">
+        <div class="row">
+            <h2 align="center">Search for Products</h2>
+            <div id="custom-search-input">
+                <form action="/search" method="get">
+                    <div class="form-group">
+                        <input type="search" name="search", class="form-control">
+                        <span class="form-group-btn">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div align="center" style="font-size: large">
             <p class="lead">Roll over the button to choose a category</p>
             <!-- Our Special dropdown has class show-on-hover -->
@@ -61,24 +79,12 @@
         </div>
     </div>
     <!-- BEGIN DIV -->
-    <div align="center" class="row">
-        <div class="col-md-6 col-sm-6"></div>
-        <div class="col-md-6 col-sm-6">
-            <div id="Search" class="dataTables_filter">
-                <label>Search:
-                    <input type="search" class="form-control input-sm input-small input-inline" placeholder="" aria-controls="sample_1">
-                </label>
-            </div>
-        </div>
-        <div id="sample_1_processing" class="dataTables_processing" style="display: none;">Processing...</div>
-    </div>
-    <!-- END DIV -->
     <!-- Begin table-->
     <div class="container">
         <div class="product-list">
             <div class="row">
                 @foreach($display as $displays)
-                <div class="col-md-3 col-sm-6">
+                <div class="col-sm-3">
                     <div class="white-box">
                         <div class="wishlist-icon">
                         </div>
@@ -95,7 +101,6 @@
                 @endforeach
             </div>
         </div>
-        <div style="text-align:center;font-size:14px;padding-top:20px;padding-bottom:20px;">Get free icon packs for your next project at <a href="http://iiicons.in/" target="_blank" style="color:#ff5e63;font-weight:bold;">www.iiicons.in</a></div>
     </div>
 @endsection
 </body>
