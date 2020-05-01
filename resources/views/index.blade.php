@@ -8,7 +8,6 @@
 <!-- BEGIN HEAD -->
 <head>
 
-
     <title>ShopNepal where you can compare prices from different sites.</title>
     <meta name='description' content='Find the best Smartphones by comparing specs, benchmarks, ratings and sales rank. Then find the lowest prices for your favorite products.' />
     <meta charset="utf-8" />
@@ -32,6 +31,12 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+
+        setTimeout(function() {
+            $('#success').fadeOut("slow","swing")
+        }, 2000);
+    </script>
 
     <!--For Category-->
 
@@ -41,10 +46,15 @@
 <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
 <!-- BEGIN HEADER -->
 @section('content')
+    @if(session('success'))
+        <div class="alert alert-success" id="success">
+            {{session('success')}}
+        </div>
+    @endif
     <!-- DIV FOR TITLE-->
     <div class="title">
         <h1 style="font-size: x-large" align="center">SHOP NEPAL | COMPARE PRICE OF SIMILAR PRODUCTS</h1>
-        <img src="{{asset('assets/frontend_images/Cover/banner.png')}}" style="width: 100%;">
+        <img src="{{asset('assets/frontend_images/Cover/banner.jpg')}}" style="width: 100%; height: 65%;">
     </div>
     <!-- DIV FOR CATEGORY-->
     <div class="container">
@@ -81,6 +91,7 @@
     <!-- BEGIN DIV -->
     <!-- Begin table-->
     <div class="container">
+        @if(isset($display))
         <div class="product-list">
             <div class="row">
                 @foreach($display as $displays)
@@ -89,17 +100,18 @@
                         <div class="wishlist-icon">
                         </div>
                         <div class="product-img">
-                            <img src="{{asset('assets/frontend_images/Cover/'.$displays->filename)}}" style="width: 50%;">
+                            <a href="productdetail/{{$displays->product_id}}"><img src="{{asset('assets/frontend_images/Cover/'.$displays->filename)}}" style="width: 50%;">  </a>
                         </div>
                         <div class="product-bottom">
                             <div class="product-name">{{$displays->product_name}}</div>
-                            <div class="price">
-                            </div>
                         </div>
                     </div>
                 </div>
                 @endforeach
             </div>
+            @elseif($message !==null)
+                <h2 align="center">{{$message}}</h2>
+            @endif
         </div>
     </div>
 @endsection

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProductSourcesTable extends Migration
+class CreateSubscriptionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,11 @@ class CreateProductSourcesTable extends Migration
      */
     public function up()
     {
-        Schema::create('product__sources', function (Blueprint $table) {
+        Schema::create('subscriptions', function (Blueprint $table) {
             $table->unsignedBigInteger('product_id');
             $table->foreign('product_id')->references('product_id')->on('products');
-            $table->unsignedBigInteger('source_id');
-            $table->foreign('source_id')->references('source_id')->on('sources');
-            $table->string('scraped_product_name');
-            $table->bigIncrements('product_price');
+            $table->string('email');
+            $table->timestamps();
         });
     }
 
@@ -30,6 +28,6 @@ class CreateProductSourcesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product__sources');
+        Schema::dropIfExists('subscriptions');
     }
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Image;
 use App\Product;
+use http\Message;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 class IndexController extends Controller
@@ -54,7 +55,11 @@ class IndexController extends Controller
         ->join('images','images.image_id','=','image__products.image_id')
         ->select('*')
         ->get();
-        return view('index', $this->display,compact('display'));
+        if (count($display) > 0){
+            return view('index', $this->display,compact('display'));
+        }else {
+            return view('index')->with('message','No product found for this search!');
+        }
     }
 
 

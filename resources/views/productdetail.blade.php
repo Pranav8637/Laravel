@@ -89,14 +89,22 @@
                             <div class="agent-title" style="margin: 20px">
                                 <div class="d-flex justify-content-center">
                                     <span class="d-flex justify-content-around">
-                                        <img class="img-thumbnail" src="https://cdn1.storehippo.com/s/58b6b898fe14ad9f7ef50fb8/ms.settings/5256837ccc4abf1d39000001/webp/5c936891f0a9eb03b7037da3-480x480.png" alt="Socheko">
+                                        <img src="{{asset('assets/frontend_images/Cover/price drop.jpg')}}" style="height: 40">
                                     </span>
                                 </div>
                             </div>
-                            <input  class="form-control ng-untouched ng-pristine ng-valid" placeholder="Your Email" type="email" style="margin-bottom: 20px">
-                            <input class="form-control" disabled="" placeholder="Actual Price" type="text" style="margin-bottom: 20px">
-                            <p style="margin-bottom: 20px">We will email you when we detect a lower price on <b _ngcontent-serverapp-c38="">{{$details->product_name}}</b></p>
+                            <form method="POST" action="{{route('subscription')}}" enctype="multipart/form-data">
+                                @csrf
+                            @auth()
+                                <input type="hidden" name="product_id" id="product_id" value="{{$details->product_id}}">
+                            <input name="email" class="form-control ng-untouched ng-pristine ng-valid" value="{{Auth::user()->email}}" type="email" style="margin-bottom: 20px">
+                            @else
+                                    <input id="email" name="email" type="email" class="form-control" placeholder="Enter Your Email!" @error('email') is-invalid @enderror name="email" value="{{ old('email') }}" required autocomplete="email">
+                            @endif
+{{--                                <input type="hidden" value="{{product_id}}">--}}
+                                <p style="margin-bottom: 20px">We will email you when we detect a lower price on <b _ngcontent-serverapp-c38="">{{$details->product_name}}</b></p>
                             <button class="btn btn-common btn-block mt-4" type="submit"><i class="lni-send"></i>Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>

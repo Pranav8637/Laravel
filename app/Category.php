@@ -11,5 +11,5 @@ class Category extends Model
         'category',
     ];
 
-    protected $primaryKey='category_id';
+
 }
