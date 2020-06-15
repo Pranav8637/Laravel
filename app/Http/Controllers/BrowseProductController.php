@@ -25,6 +25,11 @@ class BrowseProductController extends Controller
             ->orderBy('product_price','asc')
             ->where('products.product_id','=',$product_id)
             ->get();
+        $date_today= date('Y-m-d');
+        $date_yesterday=date('Y-m-d', strtotime($date_today. ' - 1 day'));
+        $date_daybeforeyesterday=date('Y-m-d', strtotime($date_today. ' - 2 day'));
+
+
 
 //        $product = Product::orderBy('product_id')->get();
 //        $image = Image::orderBy('image_id')->get();
@@ -33,7 +38,7 @@ class BrowseProductController extends Controller
 //        print_r($hello);
 
 
-        return view('productdetail', $this->detail,compact('detail','price'));
+        return view('productdetail', ['price'=>$price,'detail'=>$detail,'date_today'=>$date_today,'date_yesterday'=>$date_yesterday]);
 
     }
 

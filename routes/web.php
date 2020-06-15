@@ -19,6 +19,8 @@ Route ::get('/','IndexController@index');
 Route ::get('/search','IndexController@search');
 Route ::get('/productdetail/{product_id}','BrowseProductController@product');
 Route ::get('/compare','CompareController@compare');
+Route ::get('/test','test@test');
+Route ::get('/category/{category_id}','IndexController@showCates');
 Route ::post('/subscription','SubscriptionController@subscribe')->name('subscription')->middleware('auth');
 //Route::get('/browse/{name}', '')->name('browse.product');
 

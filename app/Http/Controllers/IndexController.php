@@ -19,16 +19,22 @@ class IndexController extends Controller
         $display = DB::table('products')
             ->join('image__products', 'image__products.product_id', '=', 'products.product_id')
             ->join('images','images.image_id','=','image__products.image_id')
-//            ->join('sources', 'sources.source_id', '=', 'product__sources.source_id')
-//            ->join('images','images.image_id','=','image__products.image_id')
-//            ->join('image__products','image__products.image_id','=','images.image_id')
             ->select('*')
             ->get();
+
+
 
         $product = Product::orderBy('product_id')->get();
         $image = Image::orderBy('image_id')->get();
 
-//        print_r($display);
+        $date_today= date('Y-m-d');
+        $date_daybeforeyesterday=date('Y-m-d', strtotime($date_today. ' - 2 day'));
+
+        $tables= DB::table('product__sources')
+            ->where('created_at', '=', $date_daybeforeyesterday);
+        $tables-> delete();
+//        print_r("Successfully Deleted!!");
+
 
 
 //        $data = $request->all();
@@ -50,17 +56,30 @@ class IndexController extends Controller
     public function search(Request $request)
     {
         $search = $request->get('search');
-        $display = DB::table('products')->where('product_name','like','%'.$search.'%')
+        $display = DB::table('products')->where('name','like','%'.$search.'%')
         ->join('image__products', 'image__products.product_id', '=', 'products.product_id')
         ->join('images','images.image_id','=','image__products.image_id')
         ->select('*')
         ->get();
+
+
         if (count($display) > 0){
             return view('index', $this->display,compact('display'));
         }else {
             return view('index')->with('message','No product found for this search!');
         }
     }
+
+    public function showCates($category_id){
+        $category_products  = Product::where('category_id', $category_id)
+        ->join('image__products', 'image__products.product_id', '=', 'products.product_id')
+        ->join('images','images.image_id','=','image__products.image_id')->get();
+//        return ($category_products);
+        return view('category_list_pro', ['category_products'=>$category_products]);
+//        return view('category_list_pro',compact('category_products',$id_));
+    }
+
+
 
 
 }

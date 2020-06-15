@@ -15,8 +15,8 @@ class CreateSourcesTable extends Migration
     {
         Schema::create('sources', function (Blueprint $table) {
             $table->bigIncrements('source_id');
+            $table->string('source_name');
             $table->string('site_name');
-            $table->string('site_url');
         });
     }
 

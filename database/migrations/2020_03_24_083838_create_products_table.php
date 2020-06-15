@@ -15,7 +15,10 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->bigIncrements('product_id');
-            $table->string('product_name');
+            $table->string('name');
+            $table->string('sastodeal_url');
+            $table->string('delayo_url');
+            $table->string('hamrobazar_url');
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
         });

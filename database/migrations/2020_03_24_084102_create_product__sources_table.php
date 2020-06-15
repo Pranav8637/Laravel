@@ -18,8 +18,10 @@ class CreateProductSourcesTable extends Migration
             $table->foreign('product_id')->references('product_id')->on('products');
             $table->unsignedBigInteger('source_id');
             $table->foreign('source_id')->references('source_id')->on('sources');
-            $table->string('scraped_product_name');
+            $table->string('product_name');
             $table->bigIncrements('product_price');
+            $table->date('created_at');
+
         });
     }
 

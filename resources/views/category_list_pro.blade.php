@@ -20,14 +20,14 @@
 
     <link rel="shortcut icon" href="favicon.ico" />
 
-{{--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">--}}
+    {{--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">--}}
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <link href="{{asset('css/frontend_css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/frontend_css/frontend_design.css')}}" rel="stylesheet">
 
-{{--    For Search Bar--}}
+    {{--    For Search Bar--}}
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -83,9 +83,9 @@
                     @foreach($cats as $cat)
                         <a class="dropdown-item" href="{{url('category',$cat->id)}}">{{ucwords($cat->category)}}</a>
                     @endforeach
-{{--                    <a href="#">Tablet</a>--}}
-{{--                    <a href="#">Watch</a>--}}
-{{--                    <a href="#">Vr-Boxes</a>--}}
+                    {{--                    <a href="#">Tablet</a>--}}
+                    {{--                    <a href="#">Watch</a>--}}
+                    {{--                    <a href="#">Vr-Boxes</a>--}}
                 </ul>
             </div>
         </div>
@@ -93,28 +93,28 @@
     <!-- BEGIN DIV -->
     <!-- Begin table-->
     <div class="container">
-        @if(isset($display))
-        <div class="product-list">
-            <div class="row">
-                @foreach($display as $displays)
-                <div class="col-sm-3">
-                    <div class="white-box">
-                        <div class="wishlist-icon">
+        @if(isset($category_products))
+            <div class="product-list">
+                <div class="row">
+                    @foreach($category_products as $displays)
+                        <div class="col-sm-3">
+                            <div class="white-box">
+                                <div class="wishlist-icon">
+                                </div>
+                                <div class="product-img">
+                                    <a href="{{ url('/productdetail') }}/{{$displays->product_id}}"><img src="{{asset('assets/frontend_images/Cover/'.$displays->filename)}}" style="width: 50%;">  </a>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-name">{{$displays->name}}</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="product-img">
-                            <a href="productdetail/{{$displays->product_id}}"><img src="{{asset('assets/frontend_images/Cover/'.$displays->filename)}}" style="width: 50%;">  </a>
-                        </div>
-                        <div class="product-bottom">
-                            <div class="product-name">{{$displays->name}}</div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
-                @endforeach
+                @elseif($message !==null)
+                    <h2 align="center">{{$message}}</h2>
+                @endif
             </div>
-            @elseif($message !==null)
-                <h2 align="center">{{$message}}</h2>
-            @endif
-        </div>
     </div>
 @endsection
 </body>

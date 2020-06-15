@@ -9,7 +9,7 @@
     <div class="body-wrpr clearfix">
         <div class="prdct-dtl__ttl-cntnr">
             @foreach($detail as $details)
-                <h1 itemprop="name" class="prdct-dtl__ttl" data-mspid="12867">{{$details->product_name}}</h1><span class="prdct-dtl__ttl-vrnt" data-size="64 GB"></span>
+                <h1 itemprop="name" class="prdct-dtl__ttl" data-mspid="12867">{{$details->name}}</h1><span class="prdct-dtl__ttl-vrnt" data-size="64 GB"></span>
                 @break
             @endforeach
             <div class="prdct-dtl__tlbr clearfix">
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="sctn prdct-dtl clearfix">
-            <div class="prdct-dtl__left">
+            <div class="prdct-dtl__left" style="margin-top: 200px;">
                     <div class="prdct-dtl__img-wrpr"> <img class="prdct-dtl__img" src="{{asset('assets/frontend_images/Cover/'.$details->filename)}}"> </div>
             </div>
             <div class="prdct-dtl__rght">
@@ -41,19 +41,47 @@
                     </div>
                     <div class="prc-box prc-tbl--fullcards">
                         @foreach($detail as $details)
+                            @if($details->created_at == $date_today)
                         <div class="prc-tbl__row-wrpr">
                                 <div class="prc-tbl__row clearfix">
-                                    <div class="prc-tbl__logo"><h5>{{$details->scraped_product_name}}</h5>
+                                    <div class="prc-tbl__logo"><h5>{{$details->product_name}}</h5>
                                     </div>
                                 <div class="prc-tbl__info">
+                                    <label>Today's Price</label>
+{{--                                    @if($details->created_at == $date_today)--}}
                                     <div class="prc-tbl__prc"><span>Rs.</span>{{$details->product_price}}</div>
+{{--                                    @endif--}}
                                 </div>
                                 <div class="prc-tbl__info">
-                                    <a rel="nofollow" target="_blank" href="{{$details->site_url}}">{{$details->site_name}}</a>
+                                    <a rel="nofollow" target="_blank" href="{{$details->site_name}}">{{$details->source_name}}</a>
                                 </div>
                             </div>
                         </div>
+                            @endif
                         @endforeach
+                    </div>
+{{--                            <div class="prc-box prc-tbl--fullcards">--}}
+{{--                            @foreach($detail as $details)--}}
+{{--                                @if($details->created_at == $date_yesterday)--}}
+{{--                                    <div class="prc-tbl__row-wrpr">--}}
+{{--                                        <div class="prc-tbl__row clearfix">--}}
+{{--                                            <div class="prc-tbl__logo"><h5>{{$details->product_name}}</h5>--}}
+{{--                                            </div>--}}
+{{--                                            <div class="prc-tbl__info">--}}
+{{--                                                <label>Yesterday's Price</label>--}}
+{{--                                                --}}{{--                                    @if($details->created_at == $date_today)--}}
+{{--                                                <div class="prc-tbl__prc"><span>Rs.</span>{{$details->product_price}}</div>--}}
+{{--                                                --}}{{--                                    @endif--}}
+{{--                                            </div>--}}
+{{--                                            <div class="prc-tbl__info">--}}
+{{--                                                <a rel="nofollow" target="_blank" href="{{$details->site_name}}">{{$details->source_name}}</a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                @endif--}}
+{{--                            @endforeach--}}
+
+
 {{--                        <div class="prc-tbl__row-wrpr " data-storename="amazon">--}}
 {{--                            <div class="prc-tbl__row clearfix">--}}
 {{--                                <div class="prc-tbl__logo"><img class="prdct-dtl__str-icon" src="https://assets.mspimages.in/logos/store-logo/amazon_store.png"></div>--}}
@@ -65,7 +93,7 @@
 {{--                                </div>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
-                    </div>
+{{--                    </div>--}}
 {{--                    <div class="kyspc clearfix">--}}
 {{--                        <h3 class="kyspc__hdr"> Key Specifications  </h3>--}}
 {{--                        <ul class="kyspc__list clearfix">--}}
@@ -83,13 +111,13 @@
             </div>
             <div class="prdct-dtl__rght" style="border-top: 1px solid #dfe1e8;">
                 <div class="widget">
-                    <h4 class="widget-title">Price Drop Alert</h4>
+                    <h4 class="widget-title">Subscribe us for new updates!!</h4>
                     <div class="agent-inner">
                         <div class="mb-4">
                             <div class="agent-title" style="margin: 20px">
                                 <div class="d-flex justify-content-center">
                                     <span class="d-flex justify-content-around">
-                                        <img src="{{asset('assets/frontend_images/Cover/price drop.jpg')}}" style="height: 40">
+                                        <img src="{{asset('assets/frontend_images/Cover/price drop.jpg')}}" style="height: 40px;">
                                     </span>
                                 </div>
                             </div>
@@ -102,8 +130,8 @@
                                     <input id="email" name="email" type="email" class="form-control" placeholder="Enter Your Email!" @error('email') is-invalid @enderror name="email" value="{{ old('email') }}" required autocomplete="email">
                             @endif
 {{--                                <input type="hidden" value="{{product_id}}">--}}
-                                <p style="margin-bottom: 20px">We will email you when we detect a lower price on <b _ngcontent-serverapp-c38="">{{$details->product_name}}</b></p>
-                            <button class="btn btn-common btn-block mt-4" type="submit"><i class="lni-send"></i>Send</button>
+                                <p style="margin-bottom: 20px">We will email you when we detect a lower price on <b _ngcontent-serverapp-c38="">{{$details->name}}</b></p>
+                            <button class="btn btn-common btn-block mt-4" type="submit"><i class="lni-send"></i>Subscribe</button>
                             </form>
                         </div>
                     </div>
